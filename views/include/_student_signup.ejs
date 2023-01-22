@@ -1,0 +1,80 @@
+<section class="signup">
+    <div class="container-signup">
+        <div class="signup-content">
+            <div class="signup-form">
+                <h2 class="form-title">Sign up</h2>
+                <form action="/api/student" method="POST" class="register-form" id="student_signup">
+                    <div class="form-group">
+                        <label for="name"><i class="fa-solid fa-user"></i></label>
+                        <input type="text" name="name" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="username"><i class="fa-regular fa-user"></i></label>
+                        <input type="text" name="username" id="username" placeholder="Username" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email"><i class="fa-solid fa-envelope"></i></label>
+                        <input type="email" name="email" id="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="pass"><i class="fa-solid fa-lock"></i></label>
+                        <input type="password" name="pass" id="pass" placeholder="Password" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="re-pass"><i class="fa-sharp fa-solid fa-key"></i></label>
+                        <input type="password" name="re_pass" id="re_pass" placeholder="Repeat Your Password" required>
+                    </div>
+                    <div class="form-group">
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td>Gender :</td>
+                                    <td><input type="radio" name="g1" id="male" value="Male"></td>
+                                    <td>Male</td>
+                                    <td><input type="radio" name="g1" id="female" value="female"></td>
+                                    <td>Female</td>
+
+                                </tr>
+                            </tbody>
+                        </table>
+                        <br>
+                    
+                        <div class="form-group">
+                            <label for="age"><i class="fa fa-child" aria-hidden="true"></i></label>
+                            <input type="text" name="age" id="age" placeholder="Your Age" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="Gra_year"><i class="fa-solid fa-graduation-cap"></i></label>
+                            <input type="text" name="gra_year" id="gra_year" placeholder="Graduation Year" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="cpi"><i class="fa-solid fa-graduation-cap"></i></label>
+                            <input type="text" name="cpi" id="cpi" placeholder="Your CPI" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="skill"><i class="fa fa-cogs" aria-hidden="true"></i></label>
+                            <input type="text" name="skill" id="skill" placeholder="Your Skills" required>
+                        </div>
+                        <div class="form-group form-button">
+                            <input type="submit" name="signup" id="signup" class="form-submit" value="Register" />
+                        </div>
+                        
+                
+                </form>
+
+            </div>
+        </div>
+
+        <div class="signup-image">
+            <figure><img src="/img/img1.png" alt="sing up image"></figure>
+            <span
+                style="padding: 50px; font-weight: 400; font-size: 14px; font-family: 'Euclid Circular A'; color: rgb(5, 37, 59);">Already
+                have an account?
+            <a href="/student-login" class="signup-image-link">Sign in</a>
+        </span>
+        </div>
+
+    </div>
+
+    </div>
+</section>

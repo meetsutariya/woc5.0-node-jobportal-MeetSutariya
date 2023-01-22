@@ -1,0 +1,66 @@
+<section class="signup">
+    <div class="container-signup">
+        <div class="signup-content">
+            <div class="signup-form">
+                <h2 class="form-title">Sign up</h2>
+                <form action="/api/company" method="POST" class="register-form" id="student_signup">
+                    <div class="form-group">
+                        <label for="company_name"><i class="fa-solid fa-user"></i></label>
+                        <input type="text" name="company_name" id="company_name" placeholder="Company Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email"><i class="fa-solid fa-envelope"></i></label>
+                        <input type="email" name="email" id="email_" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="pass"><i class="fa-solid fa-lock"></i></label>
+                        <input type="password" name="pass" id="pass_" placeholder="Password" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="re-pass"><i class="fa-sharp fa-solid fa-key"></i></label>
+                        <input type="password" name="re_pass" id="re_pass_" placeholder="Repeat Your Password" required>
+                    </div>
+                    <div class="form-group">
+                    <div class="form-group">
+                        <label for="website"><i class="fa-solid fa-code"></i></label>
+                        <input type="text" name="website" id="website" placeholder="Company Website" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="position"><i class="fa fa-tasks" aria-hidden="true"></i></label>
+                        <input type="text" name="position" id="position" placeholder="Job Position" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="package"><i class="fa-solid fa-money-bill"></i></label>
+                        <input type="text" name="package" id="package" placeholder="Package" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="re_cpi"><i class="fa-solid fa-graduation-cap"></i></label>
+                        <input type="text" name="re_cpi" id="re_cpi" placeholder="Required CPI" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="re_skill"><i class="fa fa-cogs" aria-hidden="true"></i></label>
+                        <input type="text" name="re_skill" id="re_skill" placeholder="Required Skills" required>
+                    </div>
+                    <div class="form-group form-button">
+                        <input type="submit" name="signup" id="signup_" class="form-submit" value="Register" >
+                    </div>
+                        
+                
+                </form>
+
+            </div>
+        </div>
+
+        <div class="signup-image">
+            <figure><img src="/img/img1.png" alt="sing up image"></figure>
+            <span
+                style="padding: 50px; font-weight: 400; font-size: 14px; font-family: 'Euclid Circular A'; color: rgb(5, 37, 59);">Already
+                have an account?
+            <a href="/company-login" class="signup-image-link">Sign in</a>
+        </span>
+        </div>
+
+    </div>
+
+    </div>
+</section>
